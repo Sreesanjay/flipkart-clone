@@ -1,0 +1,77 @@
+:root{
+    --primary-color:#2874f0;
+    --primary-text-color:#ffffff;
+    --secondary-text-color:#000000;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-size:15px;
+}
+
+/* style for header */
+header{
+    background-color:var(--primary-color);
+    padding: 1.3vh 13vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+header .logo-wrapper img{
+    width: 4.8em;
+}
+header .logo-wrapper .sub-logo{
+    margin-top: -5px;
+}
+header .logo-wrapper .sub-logo i{
+    font-size:10px;
+    color:var(--primary-text-color);
+}
+.logo-wrapper .sub-logo i span{
+    color: #f8e108;
+    font-weight: bold;
+    font-size:10px;
+}
+.logo-wrapper .sub-logo img{
+    width: 10px;
+}
+
+header .search-bar .search-box{
+    width: 36.8vw;
+    margin-left: -2em;
+    height: 5vh;
+    border: 0;
+    border-radius: 3px;
+    padding-left: 1em;
+    
+}
+header .search-bar img{
+    width:1.5vw;
+    position: absolute;
+    margin-left: -2.5vw;
+    margin-top: 1vh;
+}
+header .login-btn{
+    color:var(--primary-color) ;
+    border: 0;
+    background-color: var(--primary-text-color);
+    height: 4.2vh;
+    font-weight:bold ;
+    padding:0 2.5vw;
+}
+header a{
+    text-decoration:none;
+    font-weight:bold;
+    color: var(--primary-text-color);
+    display: flex;
+}
+header a img{
+    width:1.2vw ;
+    margin-right: 6px;
+}
