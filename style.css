@@ -127,7 +127,7 @@ header a img{
     margin-bottom: 1vh;
 }
 .banner-container .img{
-    width: 100%;
+    width: 100vw;
     height: auto;
 }
 @keyframes scroll{
